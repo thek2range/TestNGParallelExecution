@@ -16,10 +16,11 @@ public class BrowserManager {
 	        if (browserName.equalsIgnoreCase("chromium"))
 	        {
 	            //steup chromium browser
-	        	String pathOfExecutable = "/home/testCode/TNG/src/test/resources/msedgedriver";
-	        	System.out.println("Driver Exists : " + new File(pathOfExecutable).exists());
+	        //	String pathOfExecutable = "/home/testCode/TNG/src/test/resources/msedgedriver";
+	        //	String pathOfExecutable = "/home/testCode/src/test/resources/msedgedriver";
+	  //      	System.out.println("Driver Exists : " + new File(pathOfExecutable).exists());
 	        	WebDriverManager.chromiumdriver().setup();
-	        	System.setProperty("webdriver.edge.driver",pathOfExecutable);
+	        //	System.setProperty("webdriver.edge.driver",pathOfExecutable);
 	        	
 	        	//Add options for --headed or --headless browser launch
 	        	
